@@ -1,0 +1,13 @@
+name: ejemplos-latam
+channels:
+    - conda-forge
+dependencies:
+    - python=3.8
+    - geopandas
+    - descartes
+    - matplotlib
+    - altair
+    - jupyterlab
+    - pip
+    - pip:
+        - latam
